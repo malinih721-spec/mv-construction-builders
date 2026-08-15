@@ -1591,3 +1591,36 @@ h3 {
   color: #667788;
   letter-spacing: 1px;
 }
+/* Mobile header fix */
+@media (max-width: 768px) {
+  .navbar {
+    min-height: 120px;
+    padding: 12px 5%;
+  }
+
+  .navbar .logo {
+    align-items: center;
+  }
+
+  .navbar .logo img {
+    width: 75px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .logo-name {
+    margin-left: 10px;
+    gap: 5px;
+  }
+
+  .logo-name strong {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  .logo-name small {
+    font-size: 7px;
+    line-height: 1.4;
+    white-space: normal;
+  }
+}
